@@ -1,33 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sales Dashboard Application
 
-## Getting Started
+This is a basic sales dashboard web application built with Next.js 15, TypeScript, and Tailwind CSS. It demonstrates atomic structural principles and uses Recharts for data visualization.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Displays sales data for years 2022, 2023, and 2024.
+- Supports multiple chart types: Bar, Line, and Pie charts.
+- Allows filtering sales data by a custom sales threshold.
+- Responsive and interactive UI with buttons to switch years and chart types.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 15
+- TypeScript
+- Tailwind CSS
+- Recharts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Setup Instructions
 
-## Learn More
+1. Clone the repository:
+   ```
+   git clone <your-repo-url>
+   cd <your-repo-directory>
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Run the development server:
+   ```
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+## Project Structure
+
+- `app/app/page.tsx`: Main entry page rendering the dashboard.
+- `app/app/components/SalesDashboard.tsx`: Main dashboard component with charts and filters.
+- `app/app/globals.css`: Global styles using Tailwind CSS.
+
+## Future Enhancements
+
+- API integration to fetch real sales data.
+- Additional chart types and customization.
+- User authentication and personalized dashboards.
+
+## Author
+
+Created by [Your Name].
+
+## License
+
+This project is licensed under the None.
+
 
 ## Deploy on Vercel
 
